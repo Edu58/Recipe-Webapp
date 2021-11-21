@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Good Food</title>
+  </head>
+  <body>
+    <section>
+      <div class="header">
+        <h1>Good food</h1>
+        <i>for me, good food starts with good product</i>
+        <i style="font-size: 0.8rem; margin-top: 0.5rem"
+          >-jean-georges vongerichten</i
+        >
+
+        <div class="search">
+          <input
+            type="search"
+            name="search"
+            id="user-input"
+            placeholder="ingredient"
+          />
+          <box-icon name="search" color="white" id="search-btn"></box-icon>
+        </div>
+      </div>
+    </section>
+
+    <section class="meals-grid" id="mealGrid">
+      <h1 class="results-title">search results:</h1>
+      <div class="meal" id="meal">
+      </div>
+    </section>
+
+    <section class="recipe" id="recipe">
+      <div class="recipe-wrapper">
+        <box-icon name="x" color="white" id="close-btn"></box-icon>
+        <div class="instructions" id="instructions"></div>
+      </div>
+    </section>
+
+    <script src="/main.js"></script>
+    <script src="https://unpkg.com/boxicons@2.0.9/dist/boxicons.js"></script>
+  </body>
+</html>
