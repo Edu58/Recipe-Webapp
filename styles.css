@@ -59,6 +59,11 @@
   gap: 2rem;
 }
 
+.randommeal {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
 .meal-item {
   display: flex;
   flex-direction: column;
